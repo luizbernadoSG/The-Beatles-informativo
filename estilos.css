@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/*Cabeçalho*/
+figure.logo {
+    position: absolute;
+    left: -20px;
+}
+
+figure.logo2 {
+    position: absolute;
+    right: -370px;
+}
