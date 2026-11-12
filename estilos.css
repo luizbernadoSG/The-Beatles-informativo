@@ -3,10 +3,44 @@
 /*Cabeçalho*/
 figure.logo {
     position: absolute;
-    left: -20px;
+    left: -240px;
 }
 
 figure.logo2 {
     position: absolute;
-    right: -370px;
+    right: -180px;
+}
+header#cabecalho{
+    text-align: center;
+    width: 100%;
+}
+/*lista*/
+nav.abas ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    width: 92%;
+
+}
+nav.abas li{
+    background-color: grey;
+    text-decoration: uppercase;
+	border-radius: 30px;
+    font-size: large;
+    border-radius: 2px solid;
+    padding: 10px;
+}
+nav.abas a{
+    color: darkgrey;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+/*formatação dos titulos*/
+section.titulos {
+    width: 100%;
+    text-align: center ;
+    font-size: 20pt;
 }
