@@ -6,14 +6,11 @@ figure.logo {
     left: -240px;
 }
 
-figure.logo2 {
-    position: absolute;
-    right: -180px;
-}
 header#cabecalho{
     text-align: center;
     width: 100%;
 }
+
 /*lista*/
 nav.abas ul{
     display: flex;
