@@ -10,7 +10,17 @@ header#cabecalho{
     text-align: center;
     width: 100%;
 }
-
+figure.logo2{
+    position: absolute;
+    right: -5px;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+}
+header {
+    height: 110px;
+    border-bottom: 2px solid black;
+}
 /*lista*/
 nav.abas ul{
     display: flex;
@@ -22,22 +32,73 @@ nav.abas ul{
 
 }
 nav.abas li{
-    background-color: grey;
     text-decoration: uppercase;
-	border-radius: 30px;
+	/*border-radius: 30px;*/ /*Deixei apenas para caso queiramos trocar*/
     font-size: large;
     border-radius: 2px solid;
     padding: 10px;
 }
 nav.abas a{
-    color: darkgrey;
+    color: black;
     text-decoration: none;
     display: inline-block;
     text-align: center;
+}
+li.index{
+    background-color: #9b2226;
+}
+li.beatlemania{
+    background-color: #d55a21;
+}
+li.psy{
+    background-color: #213521;
+}
+li.dylan{
+    background-color: #f1b42f;
+}
+li.apple{
+    background-color: #005f73;
 }
 /*formatação dos titulos*/
 section.titulos {
     width: 100%;
     text-align: center ;
     font-size: 20pt;
+}
+/*fomrmatação das fotos*/
+div.caixa{
+    position: relative;
+    background-color: #556e40;
+    width: 290px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+div.caixa img{
+    width: 80%;
+    height: 80%;
+    height: auto;
+    position: absolute;
+    transition: opacity 0.5s ease;
+    
+}
+div.caixa img.imagem1{
+    opacity: 1;
+    
+}
+div.caixa img.imagem2{
+    opacity: 0;    
+}
+div.caixa:hover .imagem1 {
+    opacity: 0;
+}
+
+div.caixa:hover .imagem2 {
+    opacity: 1;
+}
+/*formatação do rodapé*/
+footer{
+    border-bottom: 2px solid black;
 }
