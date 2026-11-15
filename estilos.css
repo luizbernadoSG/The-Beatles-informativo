@@ -170,6 +170,32 @@ span.textohard h2{
 font-family: georgia;   
 }
 
+/*Dylan Era*/
+
+div.beatlesforsale {
+    flex: 1;
+    background-color: #ecffd3;
+    height: 380px;
+    min-width: 0;
+}
+div.beatlesforsale img{
+    display:flex;
+    width:23%;
+    float:right;
+    margin: 20px;
+    border: solid 5px #93f905;
+}
+
+span.textosale h1{
+text-align: left;
+color:   #93f905;
+font-family: georgia;
+}
+
+span.textosale h2{
+ color:   #93f905;
+font-family: georgia;   
+}
 /*formatação do rodapé*/
 footer{
     border-bottom: 2px solid black;
