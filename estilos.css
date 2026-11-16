@@ -200,7 +200,7 @@ font-family: georgia;
 div.beatlesforsale {
     flex: 1;
     background-color: #ecffd3;
-    height: 380px;
+    height: 390px;
     min-width: 0;
 }
 div.beatlesforsale img{
@@ -225,8 +225,9 @@ font-family: georgia;
 div.help {
     flex: 1;
     background-color: #d4eaff;
-    height: 380px;
+    height: 410px;
     min-width: 0;
+    display: flow-root;
 }
 div.help img{
     display:flex;
@@ -251,8 +252,9 @@ font-family: georgia;
 div.rubbersoul {
     flex: 1;
     background-color: #ffefde;
-    height: 380px;
+    height: 390px;
     min-width: 0;
+    display: flow-root;
 }
 div.rubbersoul img{
     display:flex;
