@@ -33,7 +33,7 @@ nav.abas ul{
 }
 nav.abas li{
     text-decoration: uppercase;
-	/*border-radius: 30px;*/ /*Deixei apenas para caso queiramos trocar*/
+    border-radius:10px; /*Deixei apenas para caso queiramos trocar*/
     font-size: large;
     border-radius: 2px solid;
     padding: 10px;
@@ -51,7 +51,7 @@ li.beatlemania{
     background-color: #d55a21;
 }
 li.psy{
-    background-color: #213521;
+    background-color: #335d33;
 }
 li.dylan{
     background-color: #f1b42f;
@@ -70,18 +70,19 @@ div.conteudo{
     display: flex;
     align-items: center;
     gap: 30px;
-    background-color: #96d166;
-    padding: 20px;
-    margin: 20px;
+    background-color: #7dbcf7;
+   /* padding: 20px;
+    margin: 20px;*/
 }
 div.conteudoinvertido{
     display: flex;
     flex-direction: row-reverse;
-    margin-left: auto;
-    margin-right: 20px;
-    background-color: #d6cc5b;
-    margin: 20px;
-    padding: 20px;
+   /* margin-left: auto;*/
+  /*  margin-right: 20px;*/
+    background-color: #eccb7d;
+   /* margin: 20px;
+    padding: 20px;*/
+    
 }
 /*formatação da caixa*/
 div.caixa{
@@ -89,6 +90,8 @@ div.caixa{
     width: 290px;
     height: 240px;
     min-width: 290px;
+    margin: 20px;
+    padding: 20px;
 }
 div.caixa img{
     width: 90%;
@@ -99,7 +102,7 @@ div.caixa img{
     left: 50%;
     transform: translate(-50%, -50%);
     transition: opacity 0.5s ease;
-    
+    border: 5px solid #3c6b97;
 }
 div.caixa img.imagem1{
     opacity: 1;
