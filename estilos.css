@@ -136,6 +136,7 @@ div.withthebeatles {
     flex: 1;
     height: 380px;
     min-width: 0;
+    background-color: white;
 }
 div.withthebeatles img{
     display:flex;
@@ -183,19 +184,71 @@ div.beatlesforsale img{
     width:23%;
     float:right;
     margin: 20px;
-    border: solid 5px #93f905;
+    border: solid 5px #4c8200;
 }
 
 span.textosale h1{
 text-align: left;
-color:   #93f905;
+color:  #4c8200 ;
 font-family: georgia;
 }
 
 span.textosale h2{
- color:   #93f905;
+ color:   #4c8200;
 font-family: georgia;   
 }
+
+div.help {
+    flex: 1;
+    background-color: #d4eaff;
+    height: 380px;
+    min-width: 0;
+}
+div.help img{
+    display:flex;
+    width:23%;
+    float:left;
+    margin: 20px;
+    border: solid 5px #0c4981;
+}
+
+span.textohelp h1{
+text-align: left;
+color:  #0c4981 ;
+font-family: georgia;
+}
+
+span.textohelp h2{
+ color:   #0c4981;
+font-family: georgia;   
+}
+
+
+div.rubbersoul {
+    flex: 1;
+    background-color: #ffefde;
+    height: 380px;
+    min-width: 0;
+}
+div.rubbersoul img{
+    display:flex;
+    width:23%;
+    float:right;
+    margin: 20px;
+    border: solid 5px #c75a1a;
+}
+
+span.textorubber h1{
+text-align: left;
+color:  #c75a1a ;
+font-family: georgia;
+}
+
+span.textorubber h2{
+ color:   #c75a1a;
+font-family: georgia;   
+}
+
 /*formatação do rodapé*/
 footer{
     border-bottom: 2px solid black;
