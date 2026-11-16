@@ -193,7 +193,106 @@ span.textohard h2{
  color: #2a417c;
 font-family: georgia;   
 }
+/*formatação do psychedelic*/
+p {
+    font-family:Verdana;
+}
 
+div.revolver {
+    flex: 1;
+    background-color: #a4a486;
+    height: 380px;
+    min-width: 0;
+}
+div.revolver img{
+    display:flex;
+    width:23%;
+    float:left;
+    margin: 20px;
+    border: solid 5px #474632;
+}
+span.textorevolver h1{
+text-align: left;
+color:  #363426;
+font-family: georgia;
+}
+
+span.textorevolver h2{
+ color:  #454433;
+font-family: georgia;   
+}
+ul{
+    font-family:verdana;
+}
+div.magical {
+    flex: 1;
+    background-color: #e68e47;
+    height: 380px;
+    min-width: 0;
+}
+div.magical img{
+    display:flex;
+    width:23%;
+    float:left;
+    margin: 20px;
+    border: solid 5px #fb8507;
+}
+span.textomagical h1{
+text-align: left;
+color:  #85622b;
+font-family: georgia;
+}
+
+span.textomagical h2{
+ color:  #c68e16;
+font-family: georgia;   
+}
+div.sgt {
+    flex: 1;
+    background-color: #d53104;
+    height: 380px;
+    min-width: 0;
+}
+div.sgt img{
+    display:flex;
+    width:23%;
+    float:left;
+    margin: 20px;
+    border: solid 5px #ff2a00;
+}
+span.textosgt h1{
+text-align: left;
+color:  #c1351c;
+font-family: georgia;
+}
+
+span.textosgt h2{
+ color:  #b21812;
+font-family: georgia;   
+}
+div.white {
+    flex: 1;
+    background-color: #aeae9a;
+    height: 380px;
+    min-width: 0;
+}
+div.white img{
+    display:flex;
+    width:23%;
+    float:left;
+    margin: 20px;
+    border: solid 5px #93938c;
+}
+span.textowhite h1{
+text-align: left;
+color:  #4e4c3d;
+font-family: georgia;
+}
+
+span.textowhite h2{
+ color:  #696854;
+font-family: georgia;   
+}
 /*formatação do rodapé*/
 footer{
     border-bottom: 2px solid black;
