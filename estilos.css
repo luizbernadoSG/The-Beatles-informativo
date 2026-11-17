@@ -281,11 +281,13 @@ p {
 
 div.revolver {
     flex: 1;
-    background-color: #a4a486;
-    height: 380px;
+    background-color: #e6e6c0;
+    height: 410px;
     min-width: 0;
+    
 }
-div.revolver img{ display:flex;
+div.revolver img{
+    display:flex;
     width:23%;
     float:right;
     margin: 20px;
@@ -307,48 +309,50 @@ ul{
 }
 div.magical {
     flex: 1;
-    background-color: #e68e47;
-    height: 380px;
+    background-color: #d4f5ff;
+    height: 410px;
     min-width: 0;
-}
+    display: flow-root;
+    }
 div.magical img{
     display:flex;
     width:23%;
     float:left;
     margin: 20px;
-    border: solid 5px #fb8507;
+    border: solid 5px #0559de;
 }
 span.textomagical h1{
 text-align: left;
-color:  #85622b;
+color:  #0559de;
 font-family: georgia;
 }
 
 span.textomagical h2{
- color:  #c68e16;
+ color: #0559de;
 font-family: georgia;   
 }
 div.sgt {
     flex: 1;
-    background-color: #d53104;
+    background-color: #ffcfd0;
     height: 380px;
     min-width: 0;
+    display: flow-root;
 }
 div.sgt img{
     display:flex;
     width:23%;
     float:right;
     margin: 20px;
-    border: solid 5px #ff2a00;
+    border: solid 5px #cb1b1f;
 }
 span.textosgt h1{
 text-align: left;
-color:  #c1351c;
+color: #cb1b1f;
 font-family: georgia;
 }
 
 span.textosgt h2{
- color:  #b21812;
+ color:  #cb1b1f;
 font-family: georgia;   
 }
 div.white {
