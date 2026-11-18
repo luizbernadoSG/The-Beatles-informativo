@@ -550,7 +550,13 @@ div.textolet h2{
  color:  #b63027;
 font-family: georgia;   
 }
-
+/*formatação eventos*/
+div.video{
+    align-items: center;
+}
+div.textovideo h1{
+    text-align: right;
+}
 /*formatação do rodapé*/
 footer{
     border-bottom: 2px solid black;
