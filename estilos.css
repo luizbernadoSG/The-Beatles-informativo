@@ -139,9 +139,26 @@ div.pleasepleaseme img{
     width:23%;
     float:left;
     margin: 20px;
+   /* border: solid 5px #FBE707;*/
+}
+/*formatção disco*/
+div.vinil img.disco{
+    opacity: 0;
+    position: absolute;
+    transition: transform 1s ease, opacity 1s ease;
+}
+div.vinil img.disco:hover{
+    transform: rotate(360deg);
+    opacity: 1;
+}
+div.vinil img.please{
+    opacity: 1;
+    transition: opacity 1s ease;
     border: solid 5px #FBE707;
 }
-
+div.vinil:hover img.please{
+    opacity: 0;
+}
 span.textoplease h1{
 text-align: left;
 color:  #FBE707;
@@ -167,9 +184,28 @@ div.withthebeatles img{
     width:23%;
     float:right;
     margin: 20px;
-    border: solid 5px #000000;
+    /*border: solid 5px #000000;*/
 }
-
+/*formatação do disco*/
+div.vinil1 img.disco{
+    opacity: 0;
+    position: absolute;
+    left: 980px;
+    transition: transform 1s ease, opacity 1s ease;
+    
+}
+div.vinil1 img.disco:hover{
+    transform: rotate(360deg);
+    opacity: 1;
+}
+div.vinil1 img.with{
+    opacity: 1;
+    transition: opacity 1s ease;
+    border: solid 5px  #2a417c;
+}
+div.vinil1:hover img.with{
+    opacity: 0;
+}
 div.aharddaysnight {
     flex: 1;
     background-color: #dbe5ff;
@@ -181,9 +217,18 @@ div.aharddaysnight img{
     width:23%;
     float:left;
     margin: 20px;
+   /* border: solid 5px #2a417c;*/
+}
+/*formatção disco*/
+
+div.vinil img.hard{
+    opacity: 1;
+    transition: opacity 1s ease;
     border: solid 5px #2a417c;
 }
-
+div.vinil:hover img.hard{
+    opacity: 0;
+}
 span.textohard h1{
 text-align: left;
 color:  #2a417c;
@@ -208,9 +253,18 @@ div.beatlesforsale img{
     width:23%;
     float:right;
     margin: 20px;
+   
+}
+/*formatação do disco*/
+
+div.vinil1 img.forsale{
+    opacity: 1;
+    transition: opacity 1s ease;
     border: solid 5px #4c8200;
 }
-
+div.vinil1:hover img.with{
+    opacity: 0;
+}
 span.textosale h1{
 text-align: left;
 color:  #4c8200 ;
@@ -234,7 +288,17 @@ div.help img{
     width:23%;
     float:left;
     margin: 20px;
-    border: solid 5px #474632;
+   
+}
+/*formatção disco*/
+
+div.vinil img.hp{
+    opacity: 1;
+    transition: opacity 1s ease;
+     border: solid 5px #474632;
+}
+div.vinil:hover img.hp{
+    opacity: 0;
 }
 span.textohelp h1{
 text-align: left;
@@ -260,9 +324,17 @@ div.rubbersoul img{
     width:23%;
     float:right;
     margin: 20px;
+    ;
+}
+/*formatação disco*/
+div.vinil1 img.rubber{
+    opacity: 1;
+    transition: opacity 1s ease;
     border: solid 5px #c75a1a;
 }
-
+div.vinil1:hover img.rubber{
+    opacity: 0;
+}
 span.textorubber h1{
 text-align: left;
 color:  #c75a1a ;
@@ -287,11 +359,19 @@ div.revolver {
 div.revolver img{
     display:flex;
     width:23%;
-    float:right;
+    float:left;
     margin: 20px;
+}
+/*formatção disco*/
+
+div.vinil img.revolver{
+    opacity: 1;
+    transition: opacity 1s ease;
     border: solid 5px #7b706a;
 }
-
+div.vinil:hover img.revolver{
+    opacity: 0;
+}
 span.textorevolver h1{
 text-align: left;
 color:  #363426;
@@ -315,7 +395,16 @@ div.magical img{
     width:23%;
     float:left;
     margin: 20px;
+   
+}
+/*formatação disco*/
+div.vinil img.magical{
+    opacity: 1;
+    transition: opacity 1s ease;
     border: solid 5px #0559de;
+}
+div.vinil:hover img.magical{
+    opacity: 0;
 }
 span.textomagical h1{
 text-align: left;
@@ -339,7 +428,16 @@ div.sgt img{
     width:23%;
     float:right;
     margin: 20px;
+    
+}
+/*formatação disco*/
+div.vinil1 img.sgt{
+    opacity: 1;
+    transition: opacity 1s ease;
     border: solid 5px #cb1b1f;
+}
+div.vinil1:hover img.sgt{
+    opacity: 0;
 }
 span.textosgt h1{
 text-align: left;
