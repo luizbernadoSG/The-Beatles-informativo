@@ -402,7 +402,7 @@ div.magical {
 div.magical img{
     display:flex;
     width:23%;
-    float:right;
+    float:left;
     margin: 20px;
    
 }
@@ -434,7 +434,7 @@ div.sgt {
 div.sgt img{
     display:flex;
     width:27.2%;
-    float:left;
+    float:right;
     margin: 20px;
     
 }
