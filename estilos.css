@@ -60,7 +60,7 @@ li.apple{
     background-color: #005f73;
 }
 li.eventos{
-    background-color: #631693;
+    background-color: #4f236a;
 }
 /*formatação dos titulos*/
 section.titulos {
@@ -143,7 +143,35 @@ div.textos{
     text-align: center;
 }
 
+/*Formatação sections das eras*/
+section.titulo {
+    flex: 1;
+    background-color: #ffffffed;
+    border-radius: 30px;
+    margin: 20px;
+    height : auto;
+    min-width: 0;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    border: #000000 dashed 2px;
+}
 
+.beatlemania{
+ color: #d55a21; 
+}
+
+.dylan{
+color: #f1b42f;
+}
+
+.psychedelic{
+    color: #335d33;
+}
+
+.apple{
+    color:#005f73 ;
+}
 /*Beatlemania era*/
 p {
     font-family:    'Fraunces';
