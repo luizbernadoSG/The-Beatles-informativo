@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
 /*Cabeçalho*/
 figure.logo {
     position: absolute;
@@ -125,7 +125,7 @@ div.textos{
 }
 /*Beatlemania era*/
 p {
-    font-family:Verdana;
+    font-family:    'Fraunces';
 }
 
 div.pleasepleaseme {
@@ -275,9 +275,7 @@ font-family: georgia;
 }
 
 /*formatação do psychedelic*/
-p {
-    font-family:Verdana;
-}
+
 
 div.revolver {
     flex: 1;
@@ -302,9 +300,7 @@ span.textorevolver h2{
  color:  #454433;
 font-family: georgia;   
 }
-ul{
-    font-family:verdana;
-}
+
 div.magical {
     flex: 1;
     background-color: #e68e47;
