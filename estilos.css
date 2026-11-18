@@ -177,16 +177,27 @@ div.vinil img.disco:hover{
 div.vinil img.please{
     opacity: 1;
     transition: opacity 1s ease;
-    border: solid 5px #FBE707;
+    border: solid 5px #cdbc00;
 }
 div.vinil:hover img.please{
     opacity: 0;
 }
 div.textoplease h1{
 text-align: left;
-color:  #FBE707;
+color:  #ebd702;
 font-family: georgia;
+
 }
+div.textoplease a{
+    color:  #FBE707;
+   text-decoration: none;
+}
+
+div.textoplease a:hover{
+    color:  #FBE707;
+   text-decoration: underline;
+}
+
 
 div.textoplease h2{
  color:  #FBE707;
@@ -211,6 +222,16 @@ div.withthebeatles img{
     margin: 20px;
     /*border: solid 5px #000000;*/
 }
+div.textowith a{
+    color:  #000000;
+   text-decoration: none;
+}
+
+div.textowith a:hover{
+    color:  #000000;
+   text-decoration: underline;
+}
+
 /*formatação do disco*/
 div.vinil1 img.disco{
     opacity: 0;
@@ -267,6 +288,15 @@ div.textohard h2{
  color: #2a417c;
 font-family: georgia;   
 }
+div.textohard a{
+    color:  #2a417c;
+   text-decoration: none;
+}
+
+div.textohard a:hover{
+    color:  #2a417c;
+   text-decoration: underline;
+}
 
 /*Dylan Era*/
 
@@ -306,6 +336,16 @@ div.textosale h2{
 font-family: georgia;   
 }
 
+.textosale a{
+    color:  #4c8200;
+   text-decoration: none;
+}
+
+.textosale a:hover{
+    color:  #4c8200;
+   text-decoration: underline;
+}
+
 div.help {
     flex: 1;
     background-color: #d4eaffcc;
@@ -340,6 +380,15 @@ font-family: georgia;
 div.textohelp h2{
  color:   #0c4981;
 font-family: georgia;   
+}
+div.textohelp a{
+    color:  #0c4981;
+   text-decoration: none;
+}
+
+div.textohelp a:hover{
+    color:  #0c4981;
+   text-decoration: underline;
 }
 
 
@@ -377,6 +426,16 @@ div.textorubber h2{
  color:   #c75a1a;
 font-family: georgia;   
 }
+div.textorubber a{
+    color:  #c75a1a;
+   text-decoration: none;
+}
+
+div.textorubber a:hover{
+    color:  #c75a1a;
+   text-decoration: underline;
+}
+
 
 /*formatação do psychedelic*/
 
@@ -395,6 +454,15 @@ div.revolver img{
     width:24%;
     float:left;
     margin: 20px;
+}
+div.revolver a{
+    color:  #000000;
+   text-decoration: none;
+}
+
+div.textorevolver a:hover{
+    color:  #000000;
+   text-decoration: underline;
 }
 /*formatção disco*/
 
@@ -451,6 +519,16 @@ div.textomagical h2{
  color: #0559de;
 font-family: georgia;   
 }
+
+div.textomagical a{
+    color:  #0559de;
+   text-decoration: none;
+}
+
+div.textomagical a:hover{
+    color:  #0559de;
+   text-decoration: underline;
+}
 div.sgt {
     flex: 1;
     background-color: #fec4c5cc;
@@ -484,6 +562,16 @@ font-family: georgia;
 div.textosgt h2{
  color:  #cb1b1f;
 font-family: georgia;   
+}
+
+div.textosgt a{
+    color:  #cb1b1f;
+   text-decoration: none;
+}
+
+div.textosgt a:hover{
+    color:  #cb1b1f;
+   text-decoration: underline;
 }
 
 /*Apple Era*/
@@ -523,6 +611,15 @@ div.textowhite h2{
  color:  #696854;
 font-family: georgia;   
 }
+div.textowhite a{
+    color:  #696854;
+   text-decoration: none;
+}
+
+div.textowhite a:hover{
+    color:  #696854;
+   text-decoration: underline;
+}
 
 div.abbey {
     flex: 1;
@@ -559,6 +656,16 @@ div.textoabbey h2{
 font-family: georgia;   
 }
 
+div.textoabbey a{
+    color:  #16411e;
+   text-decoration: none;
+}
+
+div.textoabbey a:hover{
+    color:  #16411e;
+   text-decoration: underline;
+}
+
 div.let {
     flex: 1;
     background-color: #f0aca7cc;
@@ -593,6 +700,16 @@ font-family: georgia;
 div.textolet h2{
  color:  #b63027;
 font-family: georgia;   
+}
+
+div.textolet a{
+    color:  #b63027;
+   text-decoration: none;
+}
+
+div.textolet a:hover{
+    color:  #b63027;
+   text-decoration: underline;
 }
 /*formatação eventos*/
 div.video{
