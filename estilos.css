@@ -69,6 +69,15 @@ section.titulos {
     font-size: 20pt;
 }
 
+/*Conteúdo*/
+article#conteudo{
+    background-image: url("imagens/ruadoscaras.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    }
+
 /*fomrmatação das fotos*/
 div.conteudo{
     display: flex;
@@ -142,13 +151,15 @@ p {
 
 div.pleasepleaseme {
     flex: 1;
-    background-color: #ffffcc;
-    height: auto;
+    background-color: #fefeb1cc;
+    border-radius: 30px;
+    margin: 20px;
+    height : auto;
     min-width: 0;
 }
 div.pleasepleaseme img{
     display:flex;
-    width:23%;
+    width:20%;
     float:left;
     margin: 20px;
    /* border: solid 5px #FBE707;*/
@@ -179,7 +190,7 @@ font-family: georgia;
 
 div.textoplease h2{
  color:  #FBE707;
-font-family: georgia;   
+font-family: georgia;  
 }
 ul{
     font-family:verdana;
@@ -189,11 +200,13 @@ div.withthebeatles {
     flex: 1;
     height: auto;
     min-width: 0;
-    background-color: white;
+    background-color: #ffffffcc;
+    border-radius: 30px;
+    margin: 20px;
 }
 div.withthebeatles img{
     display:flex;
-    width:23%;
+    width:20%;
     float:right;
     margin: 20px;
     /*border: solid 5px #000000;*/
@@ -218,15 +231,18 @@ div.vinil1 img.with{
 div.vinil1:hover img.with{
     opacity: 0;
 }
+
 div.aharddaysnight {
     flex: 1;
-    background-color: #dbe5ff;
+    background-color: #b2c8ffcc;
     height: auto;
     min-width: 0;
+    border-radius: 30px;
+    margin: 20px;
 }
 div.aharddaysnight img{
     display:flex;
-    width:23%;
+    width:20%;
     float:left;
     margin: 20px;
    /* border: solid 5px #2a417c;*/
@@ -256,9 +272,11 @@ font-family: georgia;
 
 div.beatlesforsale {
     flex: 1;
-    background-color: #ecffd3;
+    background-color: #e0feb9cc;
     height: auto;
     min-width: 0;
+    border-radius: 30px;
+    margin: 20px;
 }
 div.beatlesforsale img{
     display:flex;
@@ -272,7 +290,7 @@ div.beatlesforsale img{
 div.vinil1 img.forsale{
     opacity: 1;
     transition: opacity 1s ease;
-    border: solid 5px #4c8200;
+    border: solid 5px #4c8200cc;
 }
 div.vinil1:hover img.forsale{
     opacity: 0;
@@ -290,13 +308,15 @@ font-family: georgia;
 
 div.help {
     flex: 1;
-    background-color: #d4eaff;
+    background-color: #d4eaffcc;
     height: auto;
     min-width: 0;
+    border-radius: 30px;
+    margin: 20px;
 }
 div.help img{
     display:flex;
-    width:23%;
+    width:22%;
     float:left;
     margin: 20px;
    
@@ -325,13 +345,15 @@ font-family: georgia;
 
 div.rubbersoul {
     flex: 1;
-    background-color: #ffefde;
+    background-color: #fcd9b4cc;
     height: auto;
     min-width: 0;
+    border-radius: 30px;
+    margin: 20px;
 }
 div.rubbersoul img{
     display:flex;
-    width:23%;
+    width:21%;
     float:right;
     margin: 20px;
     ;
@@ -361,14 +383,16 @@ font-family: georgia;
 
 div.revolver {
     flex: 1;
-    background-color: #e6e6c0;
+    background-color: #e6e6c0cc;
     height: auto;
     min-width: 0;
+    border-radius: 30px;
+    margin: 20px;
     
 }
 div.revolver img{
     display:flex;
-    width:23%;
+    width:24%;
     float:left;
     margin: 20px;
 }
@@ -395,13 +419,15 @@ font-family: georgia;
 
 div.magical {
     flex: 1;
-    background-color: #d4f5ff;
+    background-color: #bdf0ffcc;
     height: auto;
     min-width: 0;
+    border-radius: 30px;
+    margin: 20px;
     }
 div.magical img{
     display:flex;
-    width:23%;
+    width:20%;
     float:left;
     margin: 20px;
    
@@ -427,13 +453,15 @@ font-family: georgia;
 }
 div.sgt {
     flex: 1;
-    background-color: #ffcfd0;
+    background-color: #fec4c5cc;
     height: auto;
     min-width: 0;
+    border-radius: 30px;
+    margin: 20px;
 }
 div.sgt img{
     display:flex;
-    width:27.2%;
+    width:22%;
     float:right;
     margin: 20px;
     
@@ -462,13 +490,15 @@ font-family: georgia;
 
 div.white {
     flex: 1;
-    background-color: #d4d4bd;
+    background-color: #d4d4bdcc;
     height: auto;
     min-width: 0;
+    border-radius: 30px;
+    margin: 20px;
 }
 div.white img{
     display:flex;
-    width:23%;
+    width:22%;
     float:left;
     margin: 20px;
     
@@ -496,13 +526,15 @@ font-family: georgia;
 
 div.abbey {
     flex: 1;
-    background-color: #b3e3b4;
+    background-color: #ade7aecc;
     height: auto;
     min-width: 0;
+    border-radius: 30px;
+    margin: 20px;
 }
 div.abbey img{
     display:flex;
-    width:23%;
+    width:22%;
     float:right;
     margin: 20px;
     
@@ -529,13 +561,15 @@ font-family: georgia;
 
 div.let {
     flex: 1;
-    background-color: #f0b9b5;
+    background-color: #f0aca7cc;
     height: auto;
     min-width: 0;
+    border-radius: 30px;
+    margin: 20px;
 }
 div.let img{
     display:flex;
-    width:23%;
+    width:22%;
     float:left;
     margin: 20px;
     
@@ -549,6 +583,7 @@ div.vinil img.itbe{
 div.vinil:hover img.itbe{
     opacity: 0;
 }
+
 div.textolet h1{
 text-align: left;
 color:  #b63027;
