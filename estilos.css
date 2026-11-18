@@ -551,11 +551,27 @@ div.textolet h2{
 font-family: georgia;   
 }
 /*formatação eventos*/
-div.video{
-    align-items: center;
+div.video iframe{
+  margin: 20px;
 }
-div.textovideo h1{
-    text-align: right;
+div.textovideo {
+    text-align: center;
+}
+div.video{
+    display: flex;
+}
+div.video2 iframe{
+  margin: 20px;
+  float: left;
+}
+div.textovideo2 {
+    text-align: center;
+}
+div.video2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    gap: 20px;
 }
 /*formatação do rodapé*/
 footer{
