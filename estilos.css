@@ -26,7 +26,7 @@ nav.abas ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 15px;
     list-style: none;
     width: 92%;
 
@@ -58,6 +58,9 @@ li.dylan{
 }
 li.apple{
     background-color: #005f73;
+}
+li.eventos{
+    background-color: #631693;
 }
 /*formatação dos titulos*/
 section.titulos {
@@ -262,7 +265,7 @@ div.vinil1 img.forsale{
     transition: opacity 1s ease;
     border: solid 5px #4c8200;
 }
-div.vinil1:hover img.with{
+div.vinil1:hover img.forsale{
     opacity: 0;
 }
 span.textosale h1{
@@ -395,12 +398,12 @@ div.magical img{
    
 }
 /*formatação disco*/
-div.vinil img.magical{
+div.vinil1 img.magical{
     opacity: 1;
     transition: opacity 1s ease;
     border: solid 5px #0559de;
 }
-div.vinil:hover img.magical{
+div.vinil1:hover img.magical{
     opacity: 0;
 }
 span.textomagical h1{
@@ -427,12 +430,12 @@ div.sgt img{
     
 }
 /*formatação disco*/
-div.vinil1 img.sgt{
+div.vinil img.sgt{
     opacity: 1;
     transition: opacity 1s ease;
     border: solid 5px #cb1b1f;
 }
-div.vinil1:hover img.sgt{
+div.vinil:hover img.sgt{
     opacity: 0;
 }
 span.textosgt h1{
@@ -458,7 +461,16 @@ div.white img{
     width:23%;
     float:left;
     margin: 20px;
+    
+}
+/*formatação do disco*/
+div.vinil img.white{
+    opacity: 1;
+    transition: opacity 1s ease;
     border: solid 5px #93938c;
+}
+div.vinil:hover img.white{
+    opacity: 0;
 }
 span.textowhite h1{
 text-align: left;
@@ -482,7 +494,16 @@ div.abbey img{
     width:23%;
     float:right;
     margin: 20px;
-    border: solid 5px #16411e;
+    
+}
+/*formataçao disco*/
+div.vinil1 img.abbey{
+    opacity: 1;
+    transition: opacity 1s ease;
+    border: solid 5px #16411e
+}
+div.vinil1:hover img.abbey{
+    opacity: 0;
 }
 span.textoabbey h1{
 text-align: left;
@@ -506,7 +527,16 @@ div.let img{
     width:23%;
     float:left;
     margin: 20px;
+    
+}
+/*formataçao disco*/
+div.vinil img.itbe{
+    opacity: 1;
+    transition: opacity 1s ease;
     border: solid 5px #b63027;
+}
+div.vinil:hover img.itbe{
+    opacity: 0;
 }
 span.textolet h1{
 text-align: left;
