@@ -569,4 +569,13 @@ div.textovideo h1{
 /*formatação do rodapé*/
 footer{
     border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    margin: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+p.citacao{
+    color:#781f19 ;
+    font-size: 20px;
 }
