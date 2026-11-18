@@ -131,7 +131,7 @@ p {
 div.pleasepleaseme {
     flex: 1;
     background-color: #ffffcc;
-    height: 380px;
+    height: auto;
     min-width: 0;
 }
 div.pleasepleaseme img{
@@ -142,13 +142,13 @@ div.pleasepleaseme img{
     border: solid 5px #FBE707;
 }
 
-span.textoplease h1{
+div.textoplease h1{
 text-align: left;
 color:  #FBE707;
 font-family: georgia;
 }
 
-span.textoplease h2{
+div.textoplease h2{
  color:  #FBE707;
 font-family: georgia;   
 }
@@ -158,7 +158,7 @@ ul{
 
 div.withthebeatles {
     flex: 1;
-    height: 380px;
+    height: auto;
     min-width: 0;
     background-color: white;
 }
@@ -173,7 +173,7 @@ div.withthebeatles img{
 div.aharddaysnight {
     flex: 1;
     background-color: #dbe5ff;
-    height: 380px;
+    height: auto;
     min-width: 0;
 }
 div.aharddaysnight img{
@@ -184,13 +184,13 @@ div.aharddaysnight img{
     border: solid 5px #2a417c;
 }
 
-span.textohard h1{
+div.textohard h1{
 text-align: left;
 color:  #2a417c;
 font-family: georgia;
 }
 
-span.textohard h2{
+div.textohard h2{
  color: #2a417c;
 font-family: georgia;   
 }
@@ -200,7 +200,7 @@ font-family: georgia;
 div.beatlesforsale {
     flex: 1;
     background-color: #ecffd3;
-    height: 390px;
+    height: auto;
     min-width: 0;
 }
 div.beatlesforsale img{
@@ -211,13 +211,13 @@ div.beatlesforsale img{
     border: solid 5px #4c8200;
 }
 
-span.textosale h1{
+div.textosale h1{
 text-align: left;
 color:  #4c8200 ;
 font-family: georgia;
 }
 
-span.textosale h2{
+div.textosale h2{
  color:   #4c8200;
 font-family: georgia;   
 }
@@ -225,7 +225,7 @@ font-family: georgia;
 div.help {
     flex: 1;
     background-color: #d4eaff;
-    height: 410px;
+    height: auto;
     min-width: 0;
 }
 div.help img{
@@ -235,13 +235,13 @@ div.help img{
     margin: 20px;
     border: solid 5px #474632;
 }
-span.textohelp h1{
+div.textohelp h1{
 text-align: left;
 color:  #0c4981 ;
 font-family: georgia;
 }
 
-span.textohelp h2{
+div.textohelp h2{
  color:   #0c4981;
 font-family: georgia;   
 }
@@ -250,7 +250,7 @@ font-family: georgia;
 div.rubbersoul {
     flex: 1;
     background-color: #ffefde;
-    height: 390px;
+    height: auto;
     min-width: 0;
 }
 div.rubbersoul img{
@@ -261,13 +261,13 @@ div.rubbersoul img{
     border: solid 5px #c75a1a;
 }
 
-span.textorubber h1{
+div.textorubber h1{
 text-align: left;
 color:  #c75a1a ;
 font-family: georgia;
 }
 
-span.textorubber h2{
+div.textorubber h2{
  color:   #c75a1a;
 font-family: georgia;   
 }
@@ -278,7 +278,7 @@ font-family: georgia;
 div.revolver {
     flex: 1;
     background-color: #e6e6c0;
-    height: 410px;
+    height: auto;
     min-width: 0;
     
 }
@@ -290,13 +290,13 @@ div.revolver img{
     border: solid 5px #7b706a;
 }
 
-span.textorevolver h1{
+div.textorevolver h1{
 text-align: left;
 color:  #363426;
 font-family: georgia;
 }
 
-span.textorevolver h2{
+div.textorevolver h2{
  color:  #454433;
 font-family: georgia;   
 }
@@ -304,7 +304,7 @@ font-family: georgia;
 div.magical {
     flex: 1;
     background-color: #d4f5ff;
-    height: 410px;
+    height: auto;
     min-width: 0;
     }
 div.magical img{
@@ -314,20 +314,20 @@ div.magical img{
     margin: 20px;
     border: solid 5px #0559de;
 }
-span.textomagical h1{
+div.textomagical h1{
 text-align: left;
 color:  #0559de;
 font-family: georgia;
 }
 
-span.textomagical h2{
+div.textomagical h2{
  color: #0559de;
 font-family: georgia;   
 }
 div.sgt {
     flex: 1;
     background-color: #ffcfd0;
-    height: 450px;
+    height: auto;
     min-width: 0;
 }
 div.sgt img{
@@ -337,22 +337,23 @@ div.sgt img{
     margin: 20px;
     border: solid 5px #cb1b1f;
 }
-span.textosgt h1{
+div.textosgt h1{
 text-align: left;
 color: #cb1b1f;
 font-family: georgia;
 }
 
-span.textosgt h2{
+div.textosgt h2{
  color:  #cb1b1f;
 font-family: georgia;   
 }
 
 /*Apple Era*/
+
 div.white {
     flex: 1;
     background-color: #d4d4bd;
-    height: 380px;
+    height: auto;
     min-width: 0;
 }
 div.white img{
@@ -362,13 +363,14 @@ div.white img{
     margin: 20px;
     border: solid 5px #93938c;
 }
-span.textowhite h1{
+
+div.textowhite h1{
 text-align: left;
 color:  #4e4c3d;
 font-family: georgia;
 }
 
-span.textowhite h2{
+div.textowhite h2{
  color:  #696854;
 font-family: georgia;   
 }
@@ -376,7 +378,7 @@ font-family: georgia;
 div.abbey {
     flex: 1;
     background-color: #b3e3b4;
-    height: 380px;
+    height: auto;
     min-width: 0;
 }
 div.abbey img{
@@ -386,13 +388,13 @@ div.abbey img{
     margin: 20px;
     border: solid 5px #16411e;
 }
-span.textoabbey h1{
+div.textoabbey h1{
 text-align: left;
 color:  #16411e;
 font-family: georgia;
 }
 
-span.textoabbey h2{
+div.textoabbey h2{
  color:  #16411e;
 font-family: georgia;   
 }
@@ -400,7 +402,7 @@ font-family: georgia;
 div.let {
     flex: 1;
     background-color: #f0b9b5;
-    height: 380px;
+    height: auto;
     min-width: 0;
 }
 div.let img{
@@ -410,13 +412,13 @@ div.let img{
     margin: 20px;
     border: solid 5px #b63027;
 }
-span.textolet h1{
+div.textolet h1{
 text-align: left;
 color:  #b63027;
 font-family: georgia;
 }
 
-span.textolet h2{
+div.textolet h2{
  color:  #b63027;
 font-family: georgia;   
 }
