@@ -281,7 +281,6 @@ div.help {
     background-color: #d4eaff;
     height: 410px;
     min-width: 0;
-    display: flow-root;
 }
 div.help img{
     display:flex;
@@ -317,7 +316,6 @@ div.rubbersoul {
     background-color: #ffefde;
     height: 390px;
     min-width: 0;
-    display: flow-root;
 }
 div.rubbersoul img{
     display:flex;
@@ -388,12 +386,11 @@ div.magical {
     background-color: #d4f5ff;
     height: 410px;
     min-width: 0;
-    display: flow-root;
     }
 div.magical img{
     display:flex;
     width:23%;
-    float:left;
+    float:right;
     margin: 20px;
    
 }
@@ -419,14 +416,13 @@ font-family: georgia;
 div.sgt {
     flex: 1;
     background-color: #ffcfd0;
-    height: 380px;
+    height: 450px;
     min-width: 0;
-    display: flow-root;
 }
 div.sgt img{
     display:flex;
-    width:23%;
-    float:right;
+    width:27.2%;
+    float:left;
     margin: 20px;
     
 }
@@ -449,9 +445,11 @@ span.textosgt h2{
  color:  #cb1b1f;
 font-family: georgia;   
 }
+
+/*Apple Era*/
 div.white {
     flex: 1;
-    background-color: #aeae9a;
+    background-color: #d4d4bd;
     height: 380px;
     min-width: 0;
 }
@@ -470,6 +468,54 @@ font-family: georgia;
 
 span.textowhite h2{
  color:  #696854;
+font-family: georgia;   
+}
+
+div.abbey {
+    flex: 1;
+    background-color: #b3e3b4;
+    height: 380px;
+    min-width: 0;
+}
+div.abbey img{
+    display:flex;
+    width:23%;
+    float:right;
+    margin: 20px;
+    border: solid 5px #16411e;
+}
+span.textoabbey h1{
+text-align: left;
+color:  #16411e;
+font-family: georgia;
+}
+
+span.textoabbey h2{
+ color:  #16411e;
+font-family: georgia;   
+}
+
+div.let {
+    flex: 1;
+    background-color: #f0b9b5;
+    height: 380px;
+    min-width: 0;
+}
+div.let img{
+    display:flex;
+    width:23%;
+    float:left;
+    margin: 20px;
+    border: solid 5px #b63027;
+}
+span.textolet h1{
+text-align: left;
+color:  #b63027;
+font-family: georgia;
+}
+
+span.textolet h2{
+ color:  #b63027;
 font-family: georgia;   
 }
 
