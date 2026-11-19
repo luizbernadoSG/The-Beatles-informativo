@@ -60,7 +60,7 @@ li.apple{
     background-color: #005f73;
 }
 li.eventos{
-    background-color: #631693;
+    background-color: #4f236a;
 }
 /*formatação dos titulos*/
 section.titulos {
@@ -143,7 +143,35 @@ div.textos{
     text-align: center;
 }
 
+/*Formatação sections das eras*/
+section.titulo {
+    flex: 1;
+    background-color: #ffffffed;
+    border-radius: 30px;
+    margin: 20px;
+    height : auto;
+    min-width: 0;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    border: #000000 dashed 2px;
+}
 
+.beatlemania{
+ color: #d55a21; 
+}
+
+.dylan{
+color: #f1b42f;
+}
+
+.psychedelic{
+    color: #335d33;
+}
+
+.apple{
+    color:#005f73 ;
+}
 /*Beatlemania era*/
 p {
     font-family:    'Fraunces';
@@ -151,15 +179,17 @@ p {
 
 div.pleasepleaseme {
     flex: 1;
-    background-color: #fefeb1cc;
+    background-color: #fdfdc8cc;
     border-radius: 30px;
     margin: 20px;
     height : auto;
     min-width: 0;
+    padding: 10px;
+    border: solid 5px #efe251;
 }
 div.pleasepleaseme img{
     display:flex;
-    width:20%;
+    width:22%;
     float:left;
     margin: 20px;
    /* border: solid 5px #FBE707;*/
@@ -177,30 +207,30 @@ div.vinil img.disco:hover{
 div.vinil img.please{
     opacity: 1;
     transition: opacity 1s ease;
-    border: solid 5px #cdbc00;
+    border: solid 5px #efe251;
 }
 div.vinil:hover img.please{
     opacity: 0;
 }
 div.textoplease h1{
 text-align: left;
-color:  #ebd702;
+color:  #ffea00;
 font-family: georgia;
 
 }
 div.textoplease a{
-    color:  #FBE707;
+    color:  #ffea00;
    text-decoration: none;
 }
 
 div.textoplease a:hover{
-    color:  #FBE707;
+    color:  #ffea00;
    text-decoration: underline;
 }
 
 
 div.textoplease h2{
- color:  #FBE707;
+ color:  #ffea00;
 font-family: georgia;  
 }
 ul{
@@ -214,6 +244,8 @@ div.withthebeatles {
     background-color: #ffffffcc;
     border-radius: 30px;
     margin: 20px;
+    padding: 10px;
+    border: solid 5px #000000;
 }
 div.withthebeatles img{
     display:flex;
@@ -260,6 +292,8 @@ div.aharddaysnight {
     min-width: 0;
     border-radius: 30px;
     margin: 20px;
+    padding: 10px;
+    border: solid 5px #2a417c;
 }
 div.aharddaysnight img{
     display:flex;
@@ -307,10 +341,12 @@ div.beatlesforsale {
     min-width: 0;
     border-radius: 30px;
     margin: 20px;
+    padding: 10px;
+    border: solid 5px #4c8200;
 }
 div.beatlesforsale img{
     display:flex;
-    width:23%;
+    width:25%;
     float:right;
     margin: 20px;
    
@@ -353,10 +389,12 @@ div.help {
     min-width: 0;
     border-radius: 30px;
     margin: 20px;
+    padding: 10px;
+    border: solid 5px #0c4981;
 }
 div.help img{
     display:flex;
-    width:22%;
+    width:25%;
     float:left;
     margin: 20px;
    
@@ -366,7 +404,7 @@ div.help img{
 div.vinil img.hp{
     opacity: 1;
     transition: opacity 1s ease;
-     border: solid 5px #474632;
+     border: solid 5px #0c4981;
 }
 div.vinil:hover img.hp{
     opacity: 0;
@@ -399,6 +437,8 @@ div.rubbersoul {
     min-width: 0;
     border-radius: 30px;
     margin: 20px;
+    padding: 10px;
+    border: solid 5px #c75a1a;
 }
 div.rubbersoul img{
     display:flex;
@@ -447,6 +487,8 @@ div.revolver {
     min-width: 0;
     border-radius: 30px;
     margin: 20px;
+     padding: 10px;
+    border: solid 5px #7b706a;
     
 }
 div.revolver img{
@@ -456,12 +498,12 @@ div.revolver img{
     margin: 20px;
 }
 div.revolver a{
-    color:  #000000;
+    color:  #7b706a;
    text-decoration: none;
 }
 
 div.textorevolver a:hover{
-    color:  #000000;
+    color:  #7b706a;
    text-decoration: underline;
 }
 /*formatção disco*/
@@ -492,10 +534,12 @@ div.magical {
     min-width: 0;
     border-radius: 30px;
     margin: 20px;
+     padding: 10px;
+    border: solid 5px #0559de;
     }
 div.magical img{
     display:flex;
-    width:20%;
+    width:23%;
     float:left;
     margin: 20px;
    
@@ -536,6 +580,8 @@ div.sgt {
     min-width: 0;
     border-radius: 30px;
     margin: 20px;
+     padding: 10px;
+    border: solid 5px #cb1b1f;
 }
 div.sgt img{
     display:flex;
@@ -583,10 +629,12 @@ div.white {
     min-width: 0;
     border-radius: 30px;
     margin: 20px;
+    padding: 10px;
+    border: solid 5px #93938c;
 }
 div.white img{
     display:flex;
-    width:22%;
+    width:24%;
     float:left;
     margin: 20px;
     
@@ -628,6 +676,8 @@ div.abbey {
     min-width: 0;
     border-radius: 30px;
     margin: 20px;
+    padding: 10px;
+    border: solid 5px #16411e;
 }
 div.abbey img{
     display:flex;
@@ -640,7 +690,7 @@ div.abbey img{
 div.vinil1 img.abbey{
     opacity: 1;
     transition: opacity 1s ease;
-    border: solid 5px #16411e
+    border: solid 5px #16411e;
 }
 div.vinil1:hover img.abbey{
     opacity: 0;
@@ -673,10 +723,12 @@ div.let {
     min-width: 0;
     border-radius: 30px;
     margin: 20px;
+    padding: 10px;
+    border: solid 5px #b63027;
 }
 div.let img{
     display:flex;
-    width:22%;
+    width:24%;
     float:left;
     margin: 20px;
     
