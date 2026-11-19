@@ -501,12 +501,12 @@ div.magical img{
    
 }
 /*formatação disco*/
-div.vinil1 img.magical{
+div.vinil img.magical{
     opacity: 1;
     transition: opacity 1s ease;
     border: solid 5px #0559de;
 }
-div.vinil1:hover img.magical{
+div.vinil:hover img.magical{
     opacity: 0;
 }
 div.textomagical h1{
@@ -545,12 +545,12 @@ div.sgt img{
     
 }
 /*formatação disco*/
-div.vinil img.sgt{
+div.vinil1 img.sgt{
     opacity: 1;
     transition: opacity 1s ease;
     border: solid 5px #cb1b1f;
 }
-div.vinil:hover img.sgt{
+div.vinil1:hover img.sgt{
     opacity: 0;
 }
 div.textosgt h1{
