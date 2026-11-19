@@ -14,7 +14,6 @@ Site informativo desenvolvido como projeto acadêmico, dedicado à trajetória m
 
 ---
 
-
 ## ✨ Estrutura do Site
 
 * **Início:** Página principal com apresentação geral da banda e menu de navegação entre as fases.

@@ -68,23 +68,38 @@ section.titulos {
     text-align: center ;
     font-size: 20pt;
 }
+
+/*Conteúdo*/
+article#conteudo{
+    background-image: url("imagens/ruadoscaras.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    }
+
 /*fomrmatação das fotos*/
 div.conteudo{
     display: flex;
     align-items: center;
     gap: 30px;
-    background-color: #7dbcf7;
    /* padding: 20px;
     margin: 20px;*/
+    border-radius: 30px;
+    border: 5px solid #f1b42f ;
+    background-color: #ffffff80;
+    
 }
+
 div.conteudoinvertido{
     display: flex;
     flex-direction: row-reverse;
    /* margin-left: auto;*/
   /*  margin-right: 20px;*/
-    background-color: #eccb7d;
-   /* margin: 20px;
-    padding: 20px;*/
+   border: 5px solid #005f73;
+   border-radius: 30px;
+   margin: 10px;
+   background-color: #ffffff80;
     
 }
 /*formatação da caixa*/
@@ -96,6 +111,7 @@ div.caixa{
     margin: 20px;
     padding: 20px;
 }
+
 div.caixa img{
     width: 90%;
     height: auto;
@@ -105,7 +121,7 @@ div.caixa img{
     left: 50%;
     transform: translate(-50%, -50%);
     transition: opacity 0.5s ease;
-    border: 5px solid #3c6b97;
+    border: 5px solid #9b2226;
 }
 div.caixa img.imagem1{
     opacity: 1;
@@ -126,6 +142,8 @@ div.textos{
     gap: 30px;
     text-align: center;
 }
+
+
 /*Beatlemania era*/
 p {
     font-family:    'Fraunces';
@@ -133,13 +151,15 @@ p {
 
 div.pleasepleaseme {
     flex: 1;
-    background-color: #ffffcc;
-    height: auto;
+    background-color: #fefeb1cc;
+    border-radius: 30px;
+    margin: 20px;
+    height : auto;
     min-width: 0;
 }
 div.pleasepleaseme img{
     display:flex;
-    width:23%;
+    width:20%;
     float:left;
     margin: 20px;
    /* border: solid 5px #FBE707;*/
@@ -157,20 +177,31 @@ div.vinil img.disco:hover{
 div.vinil img.please{
     opacity: 1;
     transition: opacity 1s ease;
-    border: solid 5px #FBE707;
+    border: solid 5px #cdbc00;
 }
 div.vinil:hover img.please{
     opacity: 0;
 }
 div.textoplease h1{
 text-align: left;
-color:  #FBE707;
+color:  #ebd702;
 font-family: georgia;
+
 }
+div.textoplease a{
+    color:  #FBE707;
+   text-decoration: none;
+}
+
+div.textoplease a:hover{
+    color:  #FBE707;
+   text-decoration: underline;
+}
+
 
 div.textoplease h2{
  color:  #FBE707;
-font-family: georgia;   
+font-family: georgia;  
 }
 ul{
     font-family:verdana;
@@ -180,15 +211,27 @@ div.withthebeatles {
     flex: 1;
     height: auto;
     min-width: 0;
-    background-color: white;
+    background-color: #ffffffcc;
+    border-radius: 30px;
+    margin: 20px;
 }
 div.withthebeatles img{
     display:flex;
-    width:23%;
+    width:20%;
     float:right;
     margin: 20px;
     /*border: solid 5px #000000;*/
 }
+div.textowith a{
+    color:  #000000;
+   text-decoration: none;
+}
+
+div.textowith a:hover{
+    color:  #000000;
+   text-decoration: underline;
+}
+
 /*formatação do disco*/
 div.vinil1 img.disco{
     opacity: 0;
@@ -209,15 +252,18 @@ div.vinil1 img.with{
 div.vinil1:hover img.with{
     opacity: 0;
 }
+
 div.aharddaysnight {
     flex: 1;
-    background-color: #dbe5ff;
+    background-color: #b2c8ffcc;
     height: auto;
     min-width: 0;
+    border-radius: 30px;
+    margin: 20px;
 }
 div.aharddaysnight img{
     display:flex;
-    width:23%;
+    width:20%;
     float:left;
     margin: 20px;
    /* border: solid 5px #2a417c;*/
@@ -242,14 +288,25 @@ div.textohard h2{
  color: #2a417c;
 font-family: georgia;   
 }
+div.textohard a{
+    color:  #2a417c;
+   text-decoration: none;
+}
+
+div.textohard a:hover{
+    color:  #2a417c;
+   text-decoration: underline;
+}
 
 /*Dylan Era*/
 
 div.beatlesforsale {
     flex: 1;
-    background-color: #ecffd3;
+    background-color: #e0feb9cc;
     height: auto;
     min-width: 0;
+    border-radius: 30px;
+    margin: 20px;
 }
 div.beatlesforsale img{
     display:flex;
@@ -263,7 +320,7 @@ div.beatlesforsale img{
 div.vinil1 img.forsale{
     opacity: 1;
     transition: opacity 1s ease;
-    border: solid 5px #4c8200;
+    border: solid 5px #4c8200cc;
 }
 div.vinil1:hover img.forsale{
     opacity: 0;
@@ -279,15 +336,27 @@ div.textosale h2{
 font-family: georgia;   
 }
 
+.textosale a{
+    color:  #4c8200;
+   text-decoration: none;
+}
+
+.textosale a:hover{
+    color:  #4c8200;
+   text-decoration: underline;
+}
+
 div.help {
     flex: 1;
-    background-color: #d4eaff;
+    background-color: #d4eaffcc;
     height: auto;
     min-width: 0;
+    border-radius: 30px;
+    margin: 20px;
 }
 div.help img{
     display:flex;
-    width:23%;
+    width:22%;
     float:left;
     margin: 20px;
    
@@ -312,17 +381,28 @@ div.textohelp h2{
  color:   #0c4981;
 font-family: georgia;   
 }
+div.textohelp a{
+    color:  #0c4981;
+   text-decoration: none;
+}
+
+div.textohelp a:hover{
+    color:  #0c4981;
+   text-decoration: underline;
+}
 
 
 div.rubbersoul {
     flex: 1;
-    background-color: #ffefde;
+    background-color: #fcd9b4cc;
     height: auto;
     min-width: 0;
+    border-radius: 30px;
+    margin: 20px;
 }
 div.rubbersoul img{
     display:flex;
-    width:23%;
+    width:21%;
     float:right;
     margin: 20px;
     ;
@@ -346,22 +426,43 @@ div.textorubber h2{
  color:   #c75a1a;
 font-family: georgia;   
 }
+div.textorubber a{
+    color:  #c75a1a;
+   text-decoration: none;
+}
+
+div.textorubber a:hover{
+    color:  #c75a1a;
+   text-decoration: underline;
+}
+
 
 /*formatação do psychedelic*/
 
 
 div.revolver {
     flex: 1;
-    background-color: #e6e6c0;
+    background-color: #e6e6c0cc;
     height: auto;
     min-width: 0;
+    border-radius: 30px;
+    margin: 20px;
     
 }
 div.revolver img{
     display:flex;
-    width:23%;
+    width:24%;
     float:left;
     margin: 20px;
+}
+div.revolver a{
+    color:  #000000;
+   text-decoration: none;
+}
+
+div.textorevolver a:hover{
+    color:  #000000;
+   text-decoration: underline;
 }
 /*formatção disco*/
 
@@ -386,14 +487,16 @@ font-family: georgia;
 
 div.magical {
     flex: 1;
-    background-color: #d4f5ff;
+    background-color: #bdf0ffcc;
     height: auto;
     min-width: 0;
+    border-radius: 30px;
+    margin: 20px;
     }
 div.magical img{
     display:flex;
-    width:23%;
-    float:right;
+    width:20%;
+    float:left;
     margin: 20px;
    
 }
@@ -416,16 +519,28 @@ div.textomagical h2{
  color: #0559de;
 font-family: georgia;   
 }
+
+div.textomagical a{
+    color:  #0559de;
+   text-decoration: none;
+}
+
+div.textomagical a:hover{
+    color:  #0559de;
+   text-decoration: underline;
+}
 div.sgt {
     flex: 1;
-    background-color: #ffcfd0;
+    background-color: #fec4c5cc;
     height: auto;
     min-width: 0;
+    border-radius: 30px;
+    margin: 20px;
 }
 div.sgt img{
     display:flex;
-    width:27.2%;
-    float:left;
+    width:22%;
+    float:right;
     margin: 20px;
     
 }
@@ -449,17 +564,29 @@ div.textosgt h2{
 font-family: georgia;   
 }
 
+div.textosgt a{
+    color:  #cb1b1f;
+   text-decoration: none;
+}
+
+div.textosgt a:hover{
+    color:  #cb1b1f;
+   text-decoration: underline;
+}
+
 /*Apple Era*/
 
 div.white {
     flex: 1;
-    background-color: #d4d4bd;
+    background-color: #d4d4bdcc;
     height: auto;
     min-width: 0;
+    border-radius: 30px;
+    margin: 20px;
 }
 div.white img{
     display:flex;
-    width:23%;
+    width:22%;
     float:left;
     margin: 20px;
     
@@ -484,16 +611,27 @@ div.textowhite h2{
  color:  #696854;
 font-family: georgia;   
 }
+div.textowhite a{
+    color:  #696854;
+   text-decoration: none;
+}
+
+div.textowhite a:hover{
+    color:  #696854;
+   text-decoration: underline;
+}
 
 div.abbey {
     flex: 1;
-    background-color: #b3e3b4;
+    background-color: #ade7aecc;
     height: auto;
     min-width: 0;
+    border-radius: 30px;
+    margin: 20px;
 }
 div.abbey img{
     display:flex;
-    width:23%;
+    width:22%;
     float:right;
     margin: 20px;
     
@@ -518,15 +656,27 @@ div.textoabbey h2{
 font-family: georgia;   
 }
 
+div.textoabbey a{
+    color:  #16411e;
+   text-decoration: none;
+}
+
+div.textoabbey a:hover{
+    color:  #16411e;
+   text-decoration: underline;
+}
+
 div.let {
     flex: 1;
-    background-color: #f0b9b5;
+    background-color: #f0aca7cc;
     height: auto;
     min-width: 0;
+    border-radius: 30px;
+    margin: 20px;
 }
 div.let img{
     display:flex;
-    width:23%;
+    width:22%;
     float:left;
     margin: 20px;
     
@@ -540,6 +690,7 @@ div.vinil img.itbe{
 div.vinil:hover img.itbe{
     opacity: 0;
 }
+
 div.textolet h1{
 text-align: left;
 color:  #b63027;
@@ -549,6 +700,16 @@ font-family: georgia;
 div.textolet h2{
  color:  #b63027;
 font-family: georgia;   
+}
+
+div.textolet a{
+    color:  #b63027;
+   text-decoration: none;
+}
+
+div.textolet a:hover{
+    color:  #b63027;
+   text-decoration: underline;
 }
 /*formatação eventos*/
 div.video iframe{
@@ -576,4 +737,13 @@ div.video2{
 /*formatação do rodapé*/
 footer{
     border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    margin: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+p.citacao{
+    color:#781f19 ;
+    font-size: 20px;
 }
