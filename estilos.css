@@ -69,14 +69,6 @@ section.titulos {
     font-size: 20pt;
 }
 
-/*Conteúdo*/
-article#conteudo{
-    background-image: url("imagens/ruadoscaras.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-width: 100%;
-    }
 
 /*fomrmatação das fotos*/
 div.conteudo{
@@ -442,7 +434,7 @@ div.rubbersoul {
 }
 div.rubbersoul img{
     display:flex;
-    width:21%;
+    width:23%;
     float:right;
     margin: 20px;
     ;
