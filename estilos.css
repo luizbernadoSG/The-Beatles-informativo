@@ -785,6 +785,31 @@ div.video2{
     align-items: flex-start;
     gap: 20px;
 }
+
+/*tabela*/
+table{
+     margin: 0 auto;
+	width: 40%;
+	text-align: center;
+	border-collapse: collapse;
+	border: #eedbfa solid 5px;
+}
+
+table th, td {
+	border:#eedbfa solid 5px;
+    padding: 5px;
+    text-align: center;
+	font-size: 15pt;
+	background-color: #e1c7f2;
+}
+
+table th {
+	background-color:#4f236a;
+	border:#eedbfa solid 5px;
+    padding: 5px;
+    text-align: center;
+	font-size: 17pt;
+}
 /*formatação do rodapé*/
 footer{
     border-bottom: 2px solid black;
