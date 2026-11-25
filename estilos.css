@@ -787,10 +787,15 @@ div.textovideo {
     flex: 1;
     text-align: center;
     margin-right: 10px;
+    background-color:#f4e4ff ;
+    border-radius: 20px;
+    border: solid 3px #6e259c;
+    padding: 7px;
 }
 div.video{
     display: flex;
     flex: 0 0 560px;
+    margin: 18px;
 }
 div.video2 iframe{
   margin: 20px;
@@ -803,6 +808,10 @@ div.video2 iframe{
 div.textovideo2 {
     text-align: center;
     flex: 1;
+    background-color:#f4e4ff ;
+    border-radius: 20px;
+    border: solid 3px #6e259c;
+    padding: 7px;
 }
 div.video2{
     display: flex;
@@ -813,6 +822,9 @@ div.video2{
 }
 
 /*tabela*/
+hgroup{
+    text-align: center;
+}
 table{
      margin: 0 auto;
 	width: 40%;
