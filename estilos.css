@@ -50,6 +50,10 @@ nav.abas ul{
     
 
 }
+nav.abas {
+  position: relative;
+  z-index: 10;
+}
 nav.abas li{
     text-decoration: uppercase;
     border-radius:10px; /*Deixei apenas para caso queiramos trocar*/
@@ -278,7 +282,7 @@ div.textowith a:hover{
 div.vinil1 img.disco{
     opacity: 0;
     position: absolute;
-    left: 980px;
+    left: 950px;
     transition: transform 1s ease, opacity 1s ease;
     
 }
@@ -369,6 +373,17 @@ div.vinil1 img.forsale{
 }
 div.vinil1:hover img.forsale{
     opacity: 0;
+}
+img.discoforsale{
+    opacity: 0;
+    position: absolute;
+    left: 900px;
+    transition: transform 1s ease, opacity 1s ease;
+    
+}
+div.vinil1 img.discoforsale:hover{
+    transform: rotate(360deg);
+    opacity: 1;
 }
 div.textosale h1{
 text-align: left;
@@ -465,6 +480,7 @@ div.vinil1 img.rubber{
 div.vinil1:hover img.rubber{
     opacity: 0;
 }
+
 div.textorubber h1{
 text-align: left;
 color:  #c75a1a ;
