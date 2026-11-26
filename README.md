@@ -25,3 +25,4 @@ Site informativo desenvolvido como projeto acadêmico, dedicado à trajetória m
 ---
 
 ## Link Vercel:
+https://thebeatlesinformativo.vercel.app
