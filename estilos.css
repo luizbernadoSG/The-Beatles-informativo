@@ -282,7 +282,7 @@ div.textowith a:hover{
 div.vinil1 img.disco{
     opacity: 0;
     position: absolute;
-    left: 950px;
+    left: 1150px;
     transition: transform 1s ease, opacity 1s ease;
     
 }
@@ -293,7 +293,7 @@ div.vinil1 img.disco:hover{
 div.vinil1 img.with{
     opacity: 1;
     transition: opacity 1s ease;
-    border: solid 5px  #2a417c;
+    border: solid 5px  #000000;
 }
 div.vinil1:hover img.with{
     opacity: 0;
@@ -376,8 +376,8 @@ div.vinil1:hover img.forsale{
 }
 img.discoforsale{
     opacity: 0;
-    position: absolute;
-    left: 900px;
+    position:absolute;
+    left: 1050px;
     transition: transform 1s ease, opacity 1s ease;
     
 }
@@ -479,6 +479,17 @@ div.vinil1 img.rubber{
 }
 div.vinil1:hover img.rubber{
     opacity: 0;
+}
+div.vinil1 img.discosoul{
+    opacity: 0;
+    position: absolute;
+    left: 1100px;
+    transition: transform 1s ease, opacity 1s ease;
+    
+}
+div.vinil1 img.discosoul:hover{
+    transform: rotate(360deg);
+    opacity: 1;
 }
 
 div.textorubber h1{
@@ -624,6 +635,17 @@ div.vinil1 img.sgt{
 div.vinil1:hover img.sgt{
     opacity: 0;
 }
+div.vinil1 img.discosgt{
+    opacity: 0;
+    position: absolute;
+    left: 1070px;
+    transition: transform 1s ease, opacity 1s ease;
+    
+}
+div.vinil1 img.discosgt:hover{
+    transform: rotate(360deg);
+    opacity: 1;
+}
 div.textosgt h1{
 text-align: left;
 color: #cb1b1f;
@@ -718,6 +740,17 @@ div.vinil1 img.abbey{
 }
 div.vinil1:hover img.abbey{
     opacity: 0;
+}
+div.vinil1 img.discoabbey{
+    opacity: 0;
+    position: absolute;
+    left: 1070px;
+    transition: transform 1s ease, opacity 1s ease;
+    
+}
+div.vinil1 img.discoabbey:hover{
+    transform: rotate(360deg);
+    opacity: 1;
 }
 div.textoabbey h1{
 text-align: left;
